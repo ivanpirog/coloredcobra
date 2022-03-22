@@ -88,7 +88,7 @@ HiCyan
 HiWhite
 ```
 
-## Available text formatting constants:
+### Available text formatting constants:
 
 ```
 Bold
@@ -96,7 +96,7 @@ Italic
 Underline
 ```
 
-## Available config parameters:
+### Available config parameters:
 
 ![Config Parameters](https://user-images.githubusercontent.com/8699212/159517553-7ef67fac-371b-4995-bebe-d702b6167fe1.png)
 
@@ -125,7 +125,7 @@ Underline
 
 <br>
 
-## `NoExtraNewlines` parameter results:
+### `NoExtraNewlines` parameter results:
 
 ![extranewlines](https://user-images.githubusercontent.com/8699212/159517630-00855ffe-80df-4670-a054-e695f6c4fea7.png)
 

@@ -2,9 +2,7 @@
 
 ---
 
-**[Cobra](https://github.com/spf13/cobra)** library for creating powerful modern CLI doesn't support color settings for console output.
-
-`ColoredCobra` is a small library that allows you to colorize the text output of the Cobra library, making the console output look better.
+**[Cobra](https://github.com/spf13/cobra)** library for creating powerful modern CLI doesn't support color settings for console output. `ColoredCobra` is a small library that allows you to colorize the text output of the Cobra library, making the console output look better.
 
 ![ColoredCobra Look](https://user-images.githubusercontent.com/8699212/159517325-faeac756-49b4-4b98-ba40-9764e8549335.png)
 
@@ -70,7 +68,7 @@ ExecName: cc.Bold      // equals cc.White + cc.Bold
 Example:  cc.Underline // equals cc.White + cc.Underline
 ```
 
-**Available color constants:**
+### Available color constants:
 
 ```
 Black
@@ -90,7 +88,7 @@ HiCyan
 HiWhite
 ```
 
-**Available text formatting constants:**
+## Available text formatting constants:
 
 ```
 Bold
@@ -98,7 +96,7 @@ Italic
 Underline
 ```
 
-**Available config parameters:**
+## Available config parameters:
 
 ![Config Parameters](https://user-images.githubusercontent.com/8699212/159517553-7ef67fac-371b-4995-bebe-d702b6167fe1.png)
 
@@ -125,8 +123,9 @@ Underline
 
 * `NoBottomNewline:` no line break at the end of Cobra's output, if `true`. By default: `false`.
 
-`NoExtraNewlines` parameter results:
+<br>
 
+## `NoExtraNewlines` parameter results:
 
 ![extranewlines](https://user-images.githubusercontent.com/8699212/159517630-00855ffe-80df-4670-a054-e695f6c4fea7.png)
 

@@ -64,6 +64,7 @@ Style of any part of text output is represented by a sum of predefined constants
 
 ```go
 Headings: cc.HiYellow + cc.Bold + cc.Underline
+Commands: cc.Red + cc.Bold
 ExecName: cc.Bold      // equals cc.White + cc.Bold
 Example:  cc.Underline // equals cc.White + cc.Underline
 ```

@@ -2,6 +2,8 @@
 
 ---
 
+![Go Report Card](https://goreportcard.com/badge/github.com/ivanpirog/coloredcobra)
+
 **[Cobra](https://github.com/spf13/cobra)** library for creating powerful modern CLI doesn't support color settings for console output. `ColoredCobra` is a small library that allows you to colorize the text output of the Cobra library, making the console output look better.
 
 ![ColoredCobra Look](https://user-images.githubusercontent.com/8699212/159517325-faeac756-49b4-4b98-ba40-9764e8549335.png)

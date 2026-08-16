@@ -296,6 +296,12 @@ func Init(cfg *Config) {
 	cfg.RootCmd.SetUsageTemplate(tpl)
 	// Debug line, uncomment when needed
 	// fmt.Println(tpl)
+
+	// Under TinyGo, cobra cannot execute this templated help: text/template
+	// invokes template methods via reflect.Value.Call, which TinyGo does not
+	// implement. Install a template-free colored usage/help renderer instead,
+	// applying the same colors from cfg. This is a no-op on other toolchains.
+	installManualHelp(cfg)
 }
 
 // getColor decodes color param and returns color.Color object
